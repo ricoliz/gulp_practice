@@ -1,0 +1,9 @@
+retina($x) 
+  floor($x / 2)
+
+r-sprite($sprite)
+  width: retina($sprite[4])
+  height: retina($sprite[5])
+  background-position: retina($sprite[2]) retina($sprite[3])
+  background-image: url($sprite[8]);
+  background-size: retina($sprite[6]) retina($sprite[7])

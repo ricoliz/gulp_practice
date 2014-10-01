@@ -1,0 +1,63 @@
+$attachment_x = 0px;
+$attachment_y = 0px;
+$attachment_offset_x = 0px;
+$attachment_offset_y = 0px;
+$attachment_width = 32px;
+$attachment_height = 32px;
+$attachment_total_width = 68px;
+$attachment_total_height = 68px;
+$attachment_image = '/common/img/sprite.png';
+$attachment = 0px 0px 0px 0px 32px 32px 68px 68px '/common/img/sprite.png';
+$chat_x = 36px;
+$chat_y = 0px;
+$chat_offset_x = -36px;
+$chat_offset_y = 0px;
+$chat_width = 32px;
+$chat_height = 32px;
+$chat_total_width = 68px;
+$chat_total_height = 68px;
+$chat_image = '/common/img/sprite.png';
+$chat = 36px 0px -36px 0px 32px 32px 68px 68px '/common/img/sprite.png';
+$connect_x = 0px;
+$connect_y = 36px;
+$connect_offset_x = 0px;
+$connect_offset_y = -36px;
+$connect_width = 32px;
+$connect_height = 32px;
+$connect_total_width = 68px;
+$connect_total_height = 68px;
+$connect_image = '/common/img/sprite.png';
+$connect = 0px 36px 0px -36px 32px 32px 68px 68px '/common/img/sprite.png';
+$user_x = 36px;
+$user_y = 36px;
+$user_offset_x = -36px;
+$user_offset_y = -36px;
+$user_width = 32px;
+$user_height = 32px;
+$user_total_width = 68px;
+$user_total_height = 68px;
+$user_image = '/common/img/sprite.png';
+$user = 36px 36px -36px -36px 32px 32px 68px 68px '/common/img/sprite.png';
+
+spriteWidth($sprite) {
+  width: $sprite[4];
+}
+
+spriteHeight($sprite) {
+  height: $sprite[5];
+}
+
+spritePosition($sprite) {
+  background-position: $sprite[2] $sprite[3];
+}
+
+spriteImage($sprite) {
+  background-image: url($sprite[8]);
+}
+
+sprite($sprite) {
+  spriteImage($sprite)
+  spritePosition($sprite)
+  spriteWidth($sprite)
+  spriteHeight($sprite)
+}

@@ -1,0 +1,52 @@
+{
+  "name": "misumi",
+  "version": "0.0.0",
+  "description": "kickstart package",
+  "main": "",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "browser-sync": "^0.8.2",
+    "browserify": "^3.44.2",
+    "coffee-script": "^1.7.1",
+    "coffeeify": "^0.6.0",
+    "debowerify": "^0.8.1",
+    "expect.js": "^0.3.1",
+    "gulp": "^3.8.7",
+    "gulp-browserify": "~0.5.0",
+    "gulp-changed": "^0.3.0",
+    "gulp-imagemin": "^0.6.2",
+    "gulp-jade": "^0.5.0",
+    "gulp-plumber": "^0.6.3",
+    "gulp-rename": "~1.2.0",
+    "gulp-sftp": "0.0.15",
+    "gulp-stylus": "^1.0.5",
+    "gulp-uglify": "^0.2.1",
+    "gulp.spritesmith": "^0.5.1",
+    "imagemin-jpegtran": "0.1.0",
+    "imagemin-optipng": "0.1.0",
+    "imagemin-pngcrush": "~0.1.0",
+    "imagemin-pngquant": "^0.1.3",
+    "insert-css": "~0.2.0",
+    "jade": "^1.3.1",
+    "jadeify": "^2.1.1",
+    "mocha": "^1.21.4",
+    "nib": "~1.0.2",
+    "stylify": "git://github.com/qsat/stylify.git",
+    "watchify": "^0.10.2"
+  },
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "es6-promise": "^1.0.0",
+    "jquery": "~2.1.0",
+    "jquery-mousewheel": "^3.1.12",
+    "nib": "~1.0.2",
+    "penner": "^0.1.0",
+    "underscore": "^1.6.0",
+    "vue": "^0.10.6"
+  }
+}
